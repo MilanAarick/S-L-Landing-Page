@@ -1,0 +1,147 @@
+.mw__footer{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: var(--color-footer);
+}
+.mw__footer-heading{
+    width: 100%;
+    text-align: center;
+
+    margin-bottom: 3rem;
+}
+
+.mw__footer-heading h1{ 
+    font-family: 'Manrope';
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+.mw__footer-btn p{
+    font-family: 'Manrope';
+    font-size: 18px;
+    line-height: 21px;
+   
+    word-spacing: 2px;
+    
+   
+   
+}
+.mw__footer-btn:hover{
+    /* color: var(--color-footer); */
+    color:black;
+    background: rgb(246, 246, 246);
+    border-radius: 2px;
+    
+}
+.mw__footer-btn{
+    border: 1px solid #ffffff;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+.mw__footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+}
+.mw__footer-links div{
+    width: 250px;
+    margin: 1rem;
+}
+.mw__footer-links_logo{
+    display: flex;
+    flex-direction: column;
+}
+.mw__footer-links_logo img {
+    width: 118px;
+    height: 30px;
+    margin-bottom: 1rem;
+}
+.mw__footer-links_logo p{
+  
+   
+
+    font-family: 'Manrope';
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+}
+.mw__footer-links_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.mw__footer-links_div h4{
+    font-family: 'Manrope';
+    font-size: 14px;
+    line-height: 16px;
+    color: rgb(255, 255, 255);
+
+    margin-bottom: 1rem;
+
+}
+.mw__footer-links_div p {
+    font-family: 'Manrope';
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0.4rem 0;
+
+    cursor: pointer;
+
+    color: #FFFFFF;
+}
+
+.mw__footer-copyright{
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+.mw__footer-copyright p{
+    font-family: 'Manrope';
+    font-size: 12px;
+    line-height: 14px;
+    
+}
+
+@media screen and (max-width:850px) {
+    .mw__footer-heading h1{
+        font-size: 44px;
+        line-height: 50px;
+    }
+   
+   
+    
+}
+
+@media screen and (max-width:550px) {
+    .mw__footer-heading h1{
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    .mw__footer-links div{
+      margin: 1rem 0;
+    }
+    .mw__footer-btn{
+        font-size: 34px;
+        line-height: 42px;
+    }
+}
+
+
+
