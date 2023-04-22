@@ -41,7 +41,7 @@ const Navbar = () => {
           <div className="mw__navbar-menu_container scale-up-center">
             <div className="mw__navbar-menu_container-links">
               <Menu/>
-              <div className="mw__navbar-munu_container-links-sign">
+              <div className="mw__navbar-menu_container-links-sign">
                 <p>Sign in</p>
                 <WalletButton/>
               </div>  

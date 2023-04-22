@@ -64,6 +64,7 @@
     cursor: pointer;
 }
 .mw__navbar-menu_container-links{
+    
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -85,6 +86,7 @@
 
 .mw__navbar-menu_container-links-sign{
     display:none;
+    
 }
 
 @media  screen and  (max-width:1070px){
@@ -94,7 +96,7 @@
     .mw__navbar-menu{
         display: flex;
     }
-    .mw__navbar-munu_container-links-sign{
+    .mw__navbar-menu_container-links-sign{
         display: none;
     }
 }
